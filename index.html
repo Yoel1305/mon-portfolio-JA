@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio de Joel ALAGBO : ingénieur mécanique, dessinateur projeteur et créateur de sites web, e-commerce, MVP, outils internes et supports CAO/DAO." />
+    <meta name="author" content="Joel ALAGBO" />
+    <meta name="keywords" content="Joel ALAGBO, ingénieur mécanique, développeur web, portfolio, SolidWorks, AutoCAD, dessin industriel, site web, e-commerce, MVP, outils internes, CAO DAO" />
+    <meta property="og:title" content="Joel ALAGBO | Portfolio" />
+    <meta property="og:description" content="Ingénierie mécanique, dessin industriel et solutions digitales : sites web, e-commerce, prototypes, outils internes et support technique." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Joel ALAGBO | Portfolio" />
+    <meta name="twitter:description" content="Portfolio de Joel ALAGBO : ingénierie mécanique, CAO/DAO, web, e-commerce, MVP et outils digitaux." />
+    <title>Joel | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="scroll-progress" aria-hidden="true">
+        <span data-scroll-progress></span>
+    </div>
+
+    <div class="ambient" aria-hidden="true">
+        <span class="ambient-dot dot-a"></span>
+        <span class="ambient-dot dot-b"></span>
+        <span class="ambient-dot dot-c"></span>
+    </div>
+
+    <header class="header">
+        <nav class="navbar" aria-label="Navigation principale">
+            <a href="#home" class="logo" aria-label="Accueil du portfolio de Joel ALAGBO">
+                <span class="logo-mark">J.A</span>
+                <span>Joel</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">Profil</a></li>
+                <li><a href="#journey">Parcours</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Expertises</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn" type="button" aria-label="Ouvrir le menu" aria-controls="navLinks" aria-expanded="false">
+                <span class="menu-icon" aria-hidden="true"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content reveal">
+                <p class="eyebrow">Ingénierie digitale · Outils métier · MVP</p>
+                <h1 class="hero-title">
+                    <span class="title-kicker">Solutions web</span>
+                    <span class="title-line">Des outils digitaux</span>
+                    <span class="title-line title-line-accent">
+                        qui rendent le terrain
+                        <span class="word-rotator" aria-label="plus clair, plus rapide, plus fluide, plus rentable">
+                            <span>plus clair</span>
+                            <span>plus rapide</span>
+                            <span>plus fluide</span>
+                            <span>plus rentable</span>
+                        </span>
+                    </span>
+                </h1>
+                <p class="hero-text">
+                    J'accompagne les PME, artisans et porteurs de projets pour clarifier leurs besoins, automatiser leurs
+                    opérations et créer des interfaces utiles, rapides à prendre en main et faciles à faire évoluer.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">Voir les réalisations</a>
+                    <a href="#contact" class="btn secondary">Démarrer un projet</a>
+                </div>
+
+                <div class="pulse-row" aria-label="Activités principales">
+                    <span>Audit express</span>
+                    <span>Prototype MVP</span>
+                    <span>Interface métier</span>
+                </div>
+
+                <div class="hero-image-marquee" aria-label="Aperçu visuel des univers de projet">
+                    <div class="hero-image-track">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=520&q=80" alt="Tableau de bord analytique sur ordinateur portable" />
+                        <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=520&q=80" alt="Réunion de travail autour d'un projet digital" />
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=520&q=80" alt="Interface web affichée sur un ordinateur" />
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=520&q=80" alt="Visualisation de données et graphiques" />
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=520&q=80" alt="" aria-hidden="true" />
+                        <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=520&q=80" alt="" aria-hidden="true" />
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=520&q=80" alt="" aria-hidden="true" />
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=520&q=80" alt="" aria-hidden="true" />
+                    </div>
+                </div>
+
+                <div class="stats" aria-label="Indicateurs">
+                    <div>
+                        <strong>3</strong>
+                        <span>axes : produit, code, terrain</span>
+                    </div>
+                    <div>
+                        <strong>2026</strong>
+                        <span>portfolio actif</span>
+                    </div>
+                    <div>
+                        <strong>MVP</strong>
+                        <span>approche pragmatique</span>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="hero-panel reveal" aria-label="Présentation rapide">
+                <div class="panel-header">
+                    <span class="status-dot"></span>
+                    <span>Disponible pour missions ciblées</span>
+                </div>
+
+                <div class="identity">
+                    <p>Portfolio</p>
+                    <h2>Joel ALAGBO</h2>
+                    <span>Ingénieur + développeur</span>
+                </div>
+
+                <div class="dashboard-preview">
+                    <div class="preview-top">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="preview-gallery" aria-label="Aperçus projets">
+                        <figure class="preview-shot main-shot">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=620&q=80" alt="Dashboard avec graphiques et données" />
+                            <figcaption>Dashboard</figcaption>
+                        </figure>
+                        <figure class="preview-shot">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=420&q=80" alt="Interface web sur ordinateur portable" />
+                            <figcaption>Web app</figcaption>
+                        </figure>
+                        <figure class="preview-shot">
+                            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=420&q=80" alt="Équipe travaillant sur une solution digitale" />
+                            <figcaption>Produit</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="panel-list">
+                    <div>
+                        <span>01</span>
+                        <p>Automatiser les tâches répétitives</p>
+                    </div>
+                    <div>
+                        <span>02</span>
+                        <p>Structurer les données et les rôles</p>
+                    </div>
+                    <div>
+                        <span>03</span>
+                        <p>Livrer des interfaces simples et nettes</p>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+                <span>Automatisation</span>
+                <span>Dashboard</span>
+                <span>MVP</span>
+                <span>UX métier</span>
+                <span>Firebase</span>
+                <span>JavaScript</span>
+                <span>ERP léger</span>
+                <span>Prototype</span>
+                <span>Automatisation</span>
+                <span>Dashboard</span>
+                <span>MVP</span>
+                <span>UX métier</span>
+                <span>Firebase</span>
+                <span>JavaScript</span>
+                <span>ERP léger</span>
+                <span>Prototype</span>
+            </div>
+        </div>
+
+        <section class="section about" id="about">
+            <div class="section-kicker reveal">
+                <p>Profil</p>
+                <h2>Un profil hybride pour passer du besoin terrain à l'outil utilisable.</h2>
+            </div>
+            <div class="about-copy reveal">
+                <p>
+                    Je viens du monde de l'ingénierie et du bureau d'études, avec une forte sensibilité produit. Cette
+                    double lecture me permet de comprendre les contraintes opérationnelles, de simplifier les process et
+                    de construire des solutions web adaptées au quotidien des utilisateurs.
+                </p>
+                <div class="quote-line">
+                    <span></span>
+                    <p>Moins de friction, plus de clarté, un outil qui sert vraiment le métier.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section journey" id="journey">
+            <div class="journey-card reveal">
+                <div class="journey-heading">
+                    <p>Parcours</p>
+                    <h2>De l'ingénierie mécanique au digital métier.</h2>
+                </div>
+
+                <div class="journey-content">
+                    <p>
+                        Diplômé en ingénierie mécanique, je travaille depuis 2023 comme dessinateur et chargé de projets
+                        en équipements à flux laminaires. Mon parcours passe aussi par le génie civil/BTP, avec des
+                        connaissances en structure, architecture et réalisation de plans techniques.
+                    </p>
+                    <p>
+                        J'ai ensuite renforcé cette base avec un master en ingénierie mécanique orienté robotique,
+                        notamment autour de la programmation de robots ABB. Cette culture terrain, associée à ma passion
+                        pour l'informatique, nourrit ma façon de créer des sites, prototypes et outils digitaux simples,
+                        utiles et concrets.
+                    </p>
+                </div>
+
+                <div class="journey-tags" aria-label="Points clés du parcours">
+                    <span>Ingénierie mécanique</span>
+                    <span>Flux laminaires</span>
+                    <span>Génie civil / BTP</span>
+                    <span>Architecture</span>
+                    <span>Robotique ABB</span>
+                    <span>Digital métier</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section technical" id="technical">
+            <div class="section-heading reveal">
+                <p>Culture technique</p>
+                <h2>Une base solide en dessin industriel, CAO/DAO et lecture de contraintes terrain.</h2>
+            </div>
+
+            <div class="technical-layout">
+                <div class="technical-visual reveal" aria-hidden="true">
+                    <div class="blueprint-card">
+                        <span class="blueprint-axis x-axis"></span>
+                        <span class="blueprint-axis y-axis"></span>
+                        <span class="blueprint-shape shape-a"></span>
+                        <span class="blueprint-shape shape-b"></span>
+                        <span class="blueprint-shape shape-c"></span>
+                        <p>Plan 2D · Modèle 3D · Bureau d'études</p>
+                    </div>
+                </div>
+
+                <div class="technical-grid">
+                    <article class="technical-card reveal">
+                        <span>01</span>
+                        <h3>SolidWorks 3D</h3>
+                        <p>Modélisation de pièces, assemblages, réflexion volume et compréhension mécanique.</p>
+                    </article>
+                    <article class="technical-card reveal">
+                        <span>02</span>
+                        <h3>AutoCAD 2D</h3>
+                        <p>Plans 2D, cotations, lecture de plans et préparation de supports techniques.</p>
+                    </article>
+                    <article class="technical-card reveal">
+                        <span>03</span>
+                        <h3>Dessin industriel</h3>
+                        <p>Approche bureau d'études, précision, logique de fabrication et représentation technique.</p>
+                    </article>
+                    <article class="technical-card reveal">
+                        <span>04</span>
+                        <h3>Architecture</h3>
+                        <p>Notions d'espaces, plans, contraintes fonctionnelles et lecture d'environnements bâtis.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section projects" id="projects">
+            <div class="section-heading reveal">
+                <p>Réalisations et projets</p>
+                <h2>Entre sites livrés, prototypes et produits en construction.</h2>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card featured reveal">
+                    <div class="project-visual ecommerce">
+                        <div class="visual-ui shop-ui" aria-hidden="true">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span>E-commerce</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="category">Site terminé / Pas encore en ligne</p>
+                        <span class="project-status done">Terminé</span>
+                        <h3>Sites de vente en ligne</h3>
+                        <p>
+                            Deux boutiques e-commerce finalisées, avec une structure pensée pour présenter les produits,
+                            guider l'achat et préparer une future mise en service.
+                        </p>
+                        <div class="tags">
+                            <span>Site vitrine</span><span>Boutique</span><span>Responsive</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-visual restaurant">
+                        <div class="visual-ui table-ui" aria-hidden="true">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <span>Tabl'Ease</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="category">Projet en cours / Collaboration</p>
+                        <span class="project-status progress">En cours</span>
+                        <h3>Tabl'Ease</h3>
+                        <p>
+                            Projet développé avec un ami autour d'une expérience restaurant plus fluide : menu
+                            interactif, parcours client simplifié et premières idées de gestion.
+                        </p>
+                        <div class="tags">
+                            <span>En cours</span><span>Produit</span><span>UX</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-visual erp">
+                        <div class="visual-ui erp-ui" aria-hidden="true">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span>ERP PME</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="category">Prototype personnel / Test</p>
+                        <span class="project-status prototype">Prototype</span>
+                        <h3>Prototype ERP PME</h3>
+                        <p>
+                            Prototype non officialisé créé pour tester la logique d'un outil interne : affaires,
+                            commandes, documents, devis, fournisseurs et rôles utilisateurs.
+                        </p>
+                        <div class="tags">
+                            <span>Prototype</span><span>Test</span><span>JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-visual edtech">
+                        <div class="visual-ui network-ui" aria-hidden="true">
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </div>
+                        <span>EdTech</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="category">Projet en cours / Collaboration</p>
+                        <span class="project-status progress">En cours</span>
+                        <h3>Projet EdTech</h3>
+                        <p>
+                            Projet en cours avec un ami autour d'une solution digitale dédiée aux étudiants.
+                        </p>
+                        <div class="tags">
+                            <span>En cours</span><span>EdTech</span><span>MVP</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="expertise-section" id="skills" aria-label="Expertises">
+            <div class="expertise-heading reveal">
+                <p><span></span>Ce que je fais</p>
+                <h2>Nos expertises</h2>
+            </div>
+
+            <div class="expertise-grid">
+                <article class="expertise-card reveal">
+                    <div class="expertise-icon" aria-hidden="true">⌕</div>
+                    <span class="expertise-number">01</span>
+                    <h3>Audit et conseil métier</h3>
+                    <p>Analyse de vos process, fichiers et irritants pour identifier les leviers d'amélioration.</p>
+                    <a href="#contact">En savoir plus →</a>
+                </article>
+
+                <article class="expertise-card reveal">
+                    <div class="expertise-icon" aria-hidden="true">▣</div>
+                    <span class="expertise-number">02</span>
+                    <h3>Outils internes</h3>
+                    <p>Création d'interfaces simples pour centraliser vos données, vos rôles et vos opérations.</p>
+                    <a href="#contact">En savoir plus →</a>
+                </article>
+
+                <article class="expertise-card reveal">
+                    <div class="expertise-icon" aria-hidden="true">↗</div>
+                    <span class="expertise-number">03</span>
+                    <h3>Automatisation</h3>
+                    <p>Transformation de tâches répétitives en workflows plus fiables et plus rapides à utiliser.</p>
+                    <a href="#contact">En savoir plus →</a>
+                </article>
+
+                <article class="expertise-card reveal">
+                    <div class="expertise-icon" aria-hidden="true">◎</div>
+                    <span class="expertise-number">04</span>
+                    <h3>Développement web</h3>
+                    <p>Sites, mini-applications et prototypes responsive en HTML, CSS, JavaScript et Firebase.</p>
+                    <a href="#contact">En savoir plus →</a>
+                </article>
+
+                <article class="expertise-card reveal">
+                    <div class="expertise-icon" aria-hidden="true">☁</div>
+                    <span class="expertise-number">05</span>
+                    <h3>MVP produit</h3>
+                    <p>Structuration d'idées, priorisation des fonctions et première version testable rapidement.</p>
+                    <a href="#contact">En savoir plus →</a>
+                </article>
+
+                <article class="expertise-card reveal">
+                    <div class="expertise-icon" aria-hidden="true">◇</div>
+                    <span class="expertise-number">06</span>
+                    <h3>Support technique</h3>
+                    <p>Plans, supports, logique bureau d'études et accompagnement sur des besoins techniques.</p>
+                    <a href="#contact">En savoir plus →</a>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="section method" id="method">
+            <div class="section-heading reveal">
+                <p>Méthode</p>
+                <h2>Une démarche courte, claire et orientée résultat concret.</h2>
+            </div>
+
+            <div class="method-layout">
+                <aside class="method-summary reveal">
+                    <span>Process</span>
+                    <h3>Pas de complexité inutile : on part du besoin, puis on construit ce qui sert vraiment.</h3>
+                    <p>
+                        Chaque étape doit produire quelque chose de visible : une vision claire, une première interface,
+                        puis une version exploitable.
+                    </p>
+                    <div class="method-meter" aria-hidden="true">
+                        <i></i>
+                    </div>
+                </aside>
+
+                <div class="method-list">
+                    <article class="method-item reveal">
+                        <span>01</span>
+                        <div>
+                            <p class="method-label">Clarifier</p>
+                            <h3>Cadrer le vrai besoin</h3>
+                            <p>Comprendre les utilisateurs, les fichiers existants, les irritants et les priorités.</p>
+                            <ul>
+                                <li>Objectif du projet</li>
+                                <li>Fonctions essentielles</li>
+                                <li>Contraintes métier</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="method-item reveal">
+                        <span>02</span>
+                        <div>
+                            <p class="method-label">Construire</p>
+                            <h3>Prototyper rapidement</h3>
+                            <p>Créer une première version utilisable pour tester le parcours et corriger vite.</p>
+                            <ul>
+                                <li>Interface responsive</li>
+                                <li>Structure des pages</li>
+                                <li>Premiers scénarios</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="method-item reveal">
+                        <span>03</span>
+                        <div>
+                            <p class="method-label">Finaliser</p>
+                            <h3>Livrer proprement</h3>
+                            <p>Stabiliser le rendu, améliorer les détails et préparer l'évolution du projet.</p>
+                            <ul>
+                                <li>Version finalisée</li>
+                                <li>Responsive vérifié</li>
+                                <li>Base prête à évoluer</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section services" id="services">
+            <div class="services-box reveal">
+                <div>
+                    <p>Services</p>
+                    <h2>Des services adaptés à ton profil hybride web + technique.</h2>
+                </div>
+                <div class="services-list">
+                    <article>
+                        <span>01</span>
+                        <h3>Sites web et vitrines</h3>
+                        <p>Création de sites propres, responsive et clairs pour présenter une activité ou un service.</p>
+                    </article>
+                    <article>
+                        <span>02</span>
+                        <h3>Boutiques e-commerce</h3>
+                        <p>Interfaces de vente en ligne, pages produits, parcours d'achat et structure prête à évoluer.</p>
+                    </article>
+                    <article>
+                        <span>03</span>
+                        <h3>Prototypes et MVP</h3>
+                        <p>Première version testable d'une idée d'application, d'outil métier ou de projet startup.</p>
+                    </article>
+                    <article>
+                        <span>04</span>
+                        <h3>Outils internes</h3>
+                        <p>Mini-applications pour organiser des données, suivre une activité ou remplacer des fichiers dispersés.</p>
+                    </article>
+                    <article>
+                        <span>05</span>
+                        <h3>Automatisation simple</h3>
+                        <p>Structuration de process, tableaux de bord et logique de suivi pour gagner du temps.</p>
+                    </article>
+                    <article>
+                        <span>06</span>
+                        <h3>Plans et support technique</h3>
+                        <p>Dessin industriel, plans 2D AutoCAD, modélisation 3D SolidWorks et supports bureau d'études.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section quiz-section" id="quiz">
+            <div class="section-heading reveal">
+                <p>Mini diagnostic</p>
+                <h2>Quel outil vous faut-il vraiment ?</h2>
+            </div>
+
+            <div class="quiz-box reveal" data-quiz>
+                <div class="quiz-progress" aria-hidden="true">
+                    <span data-quiz-progress></span>
+                </div>
+
+                <div class="quiz-panel active" data-step="1">
+                    <p class="quiz-count">Question 1 / 5</p>
+                    <h3>Votre besoin principal aujourd'hui ?</h3>
+                    <div class="quiz-options">
+                        <button type="button" data-answer="site">Présenter une activité</button>
+                        <button type="button" data-answer="ecommerce">Vendre des produits</button>
+                        <button type="button" data-answer="tool">Organiser un process interne</button>
+                    </div>
+                </div>
+
+                <div class="quiz-panel" data-step="2">
+                    <p class="quiz-count">Question 2 / 5</p>
+                    <h3>Vous partez plutôt de quoi ?</h3>
+                    <div class="quiz-options">
+                        <button type="button" data-answer="mvp">Une idée à tester</button>
+                        <button type="button" data-answer="tool">Des fichiers Excel ou données</button>
+                        <button type="button" data-answer="technical">Des plans ou contraintes techniques</button>
+                    </div>
+                </div>
+
+                <div class="quiz-panel" data-step="3">
+                    <p class="quiz-count">Question 3 / 5</p>
+                    <h3>Le résultat attendu doit surtout...</h3>
+                    <div class="quiz-options">
+                        <button type="button" data-answer="site">Inspirer confiance</button>
+                        <button type="button" data-answer="ecommerce">Faciliter l'achat</button>
+                        <button type="button" data-answer="automation">Faire gagner du temps</button>
+                    </div>
+                </div>
+
+                <div class="quiz-panel" data-step="4">
+                    <p class="quiz-count">Question 4 / 5</p>
+                    <h3>Votre projet est à quel stade ?</h3>
+                    <div class="quiz-options">
+                        <button type="button" data-answer="mvp">Concept en construction</button>
+                        <button type="button" data-answer="site">Besoin clair, prêt à lancer</button>
+                        <button type="button" data-answer="tool">Besoin métier déjà identifié</button>
+                    </div>
+                </div>
+
+                <div class="quiz-panel" data-step="5">
+                    <p class="quiz-count">Question 5 / 5</p>
+                    <h3>Quel type d'accompagnement vous aiderait le plus ?</h3>
+                    <div class="quiz-options">
+                        <button type="button" data-answer="mvp">Structurer l'idée</button>
+                        <button type="button" data-answer="automation">Automatiser ou clarifier</button>
+                        <button type="button" data-answer="technical">Relier technique et digital</button>
+                    </div>
+                </div>
+
+                <div class="quiz-result" data-quiz-result aria-live="polite">
+                    <p class="quiz-count">Recommandation</p>
+                    <h3 data-result-title>Votre priorité</h3>
+                    <p data-result-text></p>
+                    <div class="quiz-result-actions">
+                        <a href="#contact" class="btn primary">M'envoyer ce besoin</a>
+                        <button type="button" class="btn secondary" data-quiz-reset>Recommencer</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="contact-box reveal">
+                <div class="contact-card-main">
+                    <p>Contact</p>
+                    <h2>Parlons de votre prochain outil digital.</h2>
+                    <p>
+                        Un site, une boutique, un prototype ou un outil interne ? Envoyez-moi votre besoin, même s'il
+                        n'est pas encore totalement cadré.
+                    </p>
+
+                    <div class="contact-cta-row">
+                        <a href="tel:+33758344875" class="btn primary">Appeler</a>
+                        <a href="mailto:henrijoelalagbo@gmail.com" class="btn secondary">Envoyer un email</a>
+                    </div>
+                </div>
+
+                <aside class="contact-details" aria-label="Coordonnées">
+                    <a href="tel:+33758344875" class="detail-card primary-detail">
+                        <span>Téléphone</span>
+                        <strong>07 58 34 48 75</strong>
+                    </a>
+                    <a href="mailto:henrijoelalagbo@gmail.com" class="detail-card">
+                        <span>Email</span>
+                        <strong>henrijoelalagbo@gmail.com</strong>
+                    </a>
+                    <a href="https://www.linkedin.com/in/henri-jo%C3%ABl-alagbo-988031183" class="detail-card" target="_blank" rel="noreferrer">
+                        <span>LinkedIn</span>
+                        <strong>Discuter du projet</strong>
+                    </a>
+                    <a href="https://github.com/Yoel1305" class="detail-card" target="_blank" rel="noreferrer">
+                        <span>GitHub</span>
+                        <strong>Yoel1305</strong>
+                    </a>
+
+                    <div class="project-brief">
+                        <span>À m'envoyer</span>
+                        <ul>
+                            <li>Votre objectif</li>
+                            <li>Le type de site ou d'outil</li>
+                            <li>Ce que vous avez déjà</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <a href="#home" class="footer-logo" aria-label="Retour à l'accueil">
+                    <span>J.A</span>
+                    <strong>Joel</strong>
+                </a>
+                <p>
+                    Ingénieur et développeur de solutions digitales pour PME, artisans et porteurs de projets qui veulent
+                    des outils simples, clairs et utiles.
+                </p>
+                <div class="footer-socials" aria-label="Réseaux sociaux">
+                    <a href="https://www.linkedin.com/in/henri-jo%C3%ABl-alagbo-988031183" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+                    <a href="https://github.com/Yoel1305" target="_blank" rel="noreferrer" aria-label="GitHub">gh</a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Navigation</h3>
+                <a href="#home">Accueil</a>
+                <a href="#about">Profil</a>
+                <a href="#projects">Projets</a>
+                <a href="#skills">Expertises</a>
+                <a href="#method">Méthode</a>
+            </div>
+
+            <div class="footer-col">
+                <h3>Services</h3>
+                <a href="#services">Mini-applications web</a>
+                <a href="#services">Digitalisation Excel</a>
+                <a href="#services">Tableaux de bord</a>
+                <a href="#services">Automatisation</a>
+                <a href="#services">MVP produit</a>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <a href="mailto:henrijoelalagbo@gmail.com">Email</a>
+                <a href="tel:+33758344875">07 58 34 48 75</a>
+                <a href="https://www.linkedin.com/in/henri-jo%C3%ABl-alagbo-988031183" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="https://github.com/Yoel1305" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="#contact">Démarrer un projet</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Joel ALAGBO. Tous droits réservés.</p>
+            <p>France — Disponible à distance</p>
+        </div>
+    </footer>
+
+    <a href="#contact" class="floating-contact" aria-label="Aller à la section contact">
+        Contact
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
