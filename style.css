@@ -2703,3 +2703,327 @@ a {
         flex-direction: column;
     }
 }
+
+@media (max-width: 480px) {
+    html {
+        scroll-padding-top: 74px;
+    }
+
+    .navbar {
+        padding: 12px 16px;
+    }
+
+    .logo-mark {
+        width: 32px;
+        height: 32px;
+        font-size: 13px;
+    }
+
+    .nav-links {
+        right: 14px;
+        width: calc(100vw - 28px);
+        max-height: calc(100vh - 86px);
+        overflow-y: auto;
+    }
+
+    .hero {
+        padding: 96px 16px 54px;
+        gap: 34px;
+    }
+
+    .section {
+        padding: 58px 16px;
+    }
+
+    .eyebrow,
+    .section-kicker p,
+    .section-heading p,
+    .services-box p,
+    .contact-card-main > p:first-child {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    .hero-title {
+        max-width: 100%;
+        font-size: 32px;
+        line-height: 1.08;
+    }
+
+    .title-kicker {
+        padding: 7px 10px;
+        font-size: 11px;
+        letter-spacing: 1.6px;
+    }
+
+    .title-line-accent {
+        padding-bottom: 10px;
+    }
+
+    .word-rotator {
+        margin-top: 4px;
+        min-width: 100%;
+    }
+
+    .hero-text {
+        margin-top: 20px;
+        line-height: 1.68;
+    }
+
+    .pulse-row {
+        gap: 8px;
+    }
+
+    .pulse-row span {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .hero-image-track img {
+        width: 132px;
+        height: 88px;
+    }
+
+    .stats {
+        margin-top: 30px;
+    }
+
+    .stats div {
+        min-height: auto;
+        padding: 18px;
+        gap: 12px;
+    }
+
+    .hero-panel {
+        padding: 18px;
+    }
+
+    .identity {
+        margin-top: 26px;
+    }
+
+    .identity h2 {
+        font-size: 34px;
+    }
+
+    .dashboard-preview {
+        padding: 12px;
+    }
+
+    .preview-gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 110px 110px;
+    }
+
+    .preview-shot.main-shot {
+        grid-row: auto;
+    }
+
+    .panel-list div {
+        padding: 14px;
+        align-items: flex-start;
+    }
+
+    .section-kicker h2,
+    .section-heading h2,
+    .services-box h2,
+    .contact-card-main h2 {
+        font-size: 31px;
+        line-height: 1.12;
+    }
+
+    .about,
+    .technical,
+    .journey {
+        padding-top: 52px;
+        padding-bottom: 52px;
+    }
+
+    .journey-card,
+    .services-box,
+    .contact-box,
+    .quiz-box {
+        border-radius: 20px;
+    }
+
+    .journey-content p,
+    .about-copy p,
+    .contact-card-main > p:not(:first-child) {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .quote-line {
+        grid-template-columns: 34px 1fr;
+    }
+
+    .quote-line p {
+        font-size: 18px;
+    }
+
+    .blueprint-card {
+        min-height: 260px;
+        padding: 18px;
+        background-size: 22px 22px, 22px 22px, auto, auto;
+    }
+
+    .blueprint-card::before {
+        inset: 34px;
+    }
+
+    .blueprint-card::after {
+        right: 42px;
+        top: 56px;
+        width: 82px;
+        height: 82px;
+    }
+
+    .shape-a {
+        left: 48px;
+        top: 72px;
+        width: 96px;
+        height: 62px;
+    }
+
+    .shape-b {
+        right: 44px;
+        bottom: 74px;
+        width: 96px;
+        height: 60px;
+    }
+
+    .shape-c {
+        left: 68px;
+        bottom: 72px;
+        width: 54px;
+        height: 54px;
+    }
+
+    .blueprint-card p {
+        left: 18px;
+        right: 18px;
+        bottom: 18px;
+        font-size: 11px;
+        line-height: 1.45;
+    }
+
+    .project-grid {
+        gap: 18px;
+    }
+
+    .project-card,
+    .project-card.featured {
+        border-radius: 22px;
+    }
+
+    .project-card.featured .project-visual,
+    .project-visual {
+        min-height: 190px;
+        font-size: 26px;
+    }
+
+    .visual-ui {
+        top: 16px;
+        right: 16px;
+        width: 46%;
+        min-height: 94px;
+        border-radius: 14px;
+    }
+
+    .project-content {
+        padding: 22px;
+    }
+
+    .project-card h3,
+    .technical-card h3,
+    .method-item h3 {
+        font-size: 22px;
+    }
+
+    .expertise-section {
+        margin-top: 24px;
+        padding: 48px 16px 54px;
+    }
+
+    .expertise-heading h2 {
+        font-size: 34px;
+    }
+
+    .expertise-card {
+        min-height: auto;
+        padding: 20px 54px 20px 16px;
+    }
+
+    .method-summary,
+    .method-item {
+        border-radius: 20px;
+    }
+
+    .method-summary h3 {
+        font-size: 24px;
+    }
+
+    .method-item ul {
+        gap: 7px;
+    }
+
+    .services-list article {
+        min-height: auto;
+        padding: 18px;
+    }
+
+    .quiz-box {
+        min-height: auto;
+    }
+
+    .quiz-progress {
+        margin-bottom: 30px;
+    }
+
+    .quiz-panel h3,
+    .quiz-result h3 {
+        font-size: 28px;
+    }
+
+    .quiz-options {
+        margin-top: 24px;
+        gap: 10px;
+    }
+
+    .quiz-options button {
+        min-height: auto;
+        padding: 18px;
+        border-radius: 16px;
+        font-size: 15px;
+    }
+
+    .contact-card-main {
+        padding: 22px;
+    }
+
+    .contact-details {
+        padding: 0 18px 18px;
+        gap: 10px;
+    }
+
+    .detail-card,
+    .project-brief {
+        padding: 18px;
+        border-radius: 18px;
+    }
+
+    .detail-card strong {
+        font-size: 18px;
+        overflow-wrap: anywhere;
+    }
+
+    .footer-inner {
+        padding-top: 40px;
+    }
+
+    .footer-logo span {
+        width: 48px;
+        height: 48px;
+        font-size: 22px;
+    }
+}
