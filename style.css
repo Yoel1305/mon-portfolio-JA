@@ -2731,6 +2731,10 @@ a {
         gap: 34px;
     }
 
+    .hero-content {
+        padding-right: 0;
+    }
+
     .section {
         padding: 58px 16px;
     }
@@ -2784,6 +2788,10 @@ a {
         height: 88px;
     }
 
+    .hero-image-marquee {
+        display: none;
+    }
+
     .stats {
         margin-top: 30px;
     }
@@ -2795,7 +2803,12 @@ a {
     }
 
     .hero-panel {
-        padding: 18px;
+        padding: 16px;
+    }
+
+    .hero-panel .panel-header,
+    .hero-panel .identity span {
+        font-size: 11px;
     }
 
     .identity {
@@ -2803,25 +2816,21 @@ a {
     }
 
     .identity h2 {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .dashboard-preview {
-        padding: 12px;
-    }
-
-    .preview-gallery {
-        grid-template-columns: 1fr;
-        grid-template-rows: 150px 110px 110px;
-    }
-
-    .preview-shot.main-shot {
-        grid-row: auto;
+        display: none;
     }
 
     .panel-list div {
-        padding: 14px;
+        padding: 12px;
         align-items: flex-start;
+    }
+
+    .panel-list p {
+        font-size: 13px;
+        line-height: 1.45;
     }
 
     .section-kicker h2,
@@ -2849,8 +2858,8 @@ a {
     .journey-content p,
     .about-copy p,
     .contact-card-main > p:not(:first-child) {
-        font-size: 15px;
-        line-height: 1.7;
+        font-size: 14px;
+        line-height: 1.65;
     }
 
     .quote-line {
@@ -2862,53 +2871,53 @@ a {
     }
 
     .blueprint-card {
-        min-height: 260px;
-        padding: 18px;
-        background-size: 22px 22px, 22px 22px, auto, auto;
+        min-height: 220px;
+        padding: 14px;
+        background-size: 18px 18px, 18px 18px, auto, auto;
     }
 
     .blueprint-card::before {
-        inset: 34px;
+        inset: 28px;
     }
 
     .blueprint-card::after {
-        right: 42px;
-        top: 56px;
-        width: 82px;
-        height: 82px;
+        right: 34px;
+        top: 50px;
+        width: 68px;
+        height: 68px;
     }
 
     .shape-a {
-        left: 48px;
-        top: 72px;
-        width: 96px;
-        height: 62px;
+        left: 40px;
+        top: 58px;
+        width: 78px;
+        height: 52px;
     }
 
     .shape-b {
-        right: 44px;
-        bottom: 74px;
-        width: 96px;
-        height: 60px;
+        right: 36px;
+        bottom: 62px;
+        width: 78px;
+        height: 52px;
     }
 
     .shape-c {
-        left: 68px;
-        bottom: 72px;
-        width: 54px;
-        height: 54px;
+        left: 56px;
+        bottom: 58px;
+        width: 44px;
+        height: 44px;
     }
 
     .blueprint-card p {
-        left: 18px;
-        right: 18px;
-        bottom: 18px;
+        left: 14px;
+        right: 14px;
+        bottom: 14px;
         font-size: 11px;
         line-height: 1.45;
     }
 
     .project-grid {
-        gap: 18px;
+        gap: 16px;
     }
 
     .project-card,
@@ -2918,8 +2927,8 @@ a {
 
     .project-card.featured .project-visual,
     .project-visual {
-        min-height: 190px;
-        font-size: 26px;
+        min-height: 170px;
+        font-size: 24px;
     }
 
     .visual-ui {
@@ -2931,13 +2940,13 @@ a {
     }
 
     .project-content {
-        padding: 22px;
+        padding: 20px;
     }
 
     .project-card h3,
     .technical-card h3,
     .method-item h3 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .expertise-section {
@@ -2951,7 +2960,7 @@ a {
 
     .expertise-card {
         min-height: auto;
-        padding: 20px 54px 20px 16px;
+        padding: 18px 50px 18px 14px;
     }
 
     .method-summary,
@@ -2960,20 +2969,37 @@ a {
     }
 
     .method-summary h3 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .method-item ul {
         gap: 7px;
     }
 
+    .method-item p {
+        font-size: 14px;
+    }
+
+    .method-item li {
+        font-size: 11px;
+    }
+
     .services-list article {
         min-height: auto;
-        padding: 18px;
+        padding: 16px;
+    }
+
+    .services-list h3 {
+        font-size: 16px;
+    }
+
+    .services-list p {
+        font-size: 13px;
     }
 
     .quiz-box {
         min-height: auto;
+        padding: 18px;
     }
 
     .quiz-progress {
@@ -2982,7 +3008,11 @@ a {
 
     .quiz-panel h3,
     .quiz-result h3 {
-        font-size: 28px;
+        font-size: 26px;
+    }
+
+    .quiz-result p:not(.quiz-count) {
+        font-size: 15px;
     }
 
     .quiz-options {
@@ -2998,7 +3028,7 @@ a {
     }
 
     .contact-card-main {
-        padding: 22px;
+        padding: 20px;
     }
 
     .contact-details {
@@ -3013,8 +3043,12 @@ a {
     }
 
     .detail-card strong {
-        font-size: 18px;
+        font-size: 17px;
         overflow-wrap: anywhere;
+    }
+
+    .project-brief li {
+        font-size: 13px;
     }
 
     .footer-inner {
@@ -3025,5 +3059,205 @@ a {
         width: 48px;
         height: 48px;
         font-size: 22px;
+    }
+
+    .floating-contact {
+        right: 12px;
+        bottom: 12px;
+    }
+}
+
+@media (max-width: 390px) {
+    .navbar {
+        padding: 10px 14px;
+    }
+
+    .nav-links {
+        right: 10px;
+        width: calc(100vw - 20px);
+    }
+
+    .hero {
+        padding: 88px 14px 44px;
+        gap: 28px;
+    }
+
+    .section {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .hero-title {
+        font-size: 29px;
+        gap: 7px;
+    }
+
+    .title-kicker {
+        padding: 6px 9px;
+        font-size: 10px;
+    }
+
+    .hero-text {
+        font-size: 14px;
+    }
+
+    .pulse-row {
+        gap: 6px;
+    }
+
+    .pulse-row span {
+        padding: 7px 9px;
+        font-size: 11px;
+    }
+
+    .stats strong {
+        font-size: 24px;
+    }
+
+    .hero-panel {
+        padding: 14px;
+    }
+
+    .identity h2 {
+        font-size: 28px;
+    }
+
+    .panel-list div {
+        padding: 11px;
+    }
+
+    .panel-list p {
+        font-size: 13px;
+        line-height: 1.45;
+    }
+
+    .section-kicker h2,
+    .section-heading h2,
+    .services-box h2,
+    .contact-card-main h2,
+    .journey-heading h2,
+    .technical .section-heading h2 {
+        font-size: 28px;
+    }
+
+    .journey-card,
+    .services-box,
+    .contact-box,
+    .quiz-box {
+        padding: 18px;
+    }
+
+    .journey-content p,
+    .about-copy p,
+    .contact-card-main > p:not(:first-child),
+    .quiz-result p:not(.quiz-count) {
+        font-size: 13px;
+    }
+
+    .blueprint-card {
+        min-height: 200px;
+    }
+
+    .project-card.featured .project-visual,
+    .project-visual {
+        min-height: 160px;
+        font-size: 22px;
+    }
+
+    .project-content {
+        padding: 18px;
+    }
+
+    .project-card h3,
+    .technical-card h3,
+    .method-item h3,
+    .services-list h3 {
+        font-size: 18px;
+    }
+
+    .expertise-heading h2 {
+        font-size: 30px;
+    }
+
+    .expertise-card {
+        padding-right: 46px;
+    }
+
+    .quiz-panel h3,
+    .quiz-result h3 {
+        font-size: 24px;
+    }
+
+    .quiz-options button {
+        padding: 16px;
+        font-size: 14px;
+    }
+
+    .contact-card-main {
+        padding: 18px;
+    }
+
+    .detail-card,
+    .project-brief {
+        padding: 16px;
+    }
+
+    .detail-card strong {
+        font-size: 16px;
+    }
+
+    .footer-inner {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .footer-bottom {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-title {
+        font-size: 27px;
+    }
+
+    .hero-image-track img {
+        width: 118px;
+        height: 78px;
+    }
+
+    .stats strong {
+        font-size: 22px;
+    }
+
+    .identity h2 {
+        font-size: 26px;
+    }
+
+    .section-kicker h2,
+    .section-heading h2,
+    .services-box h2,
+    .contact-card-main h2,
+    .journey-heading h2,
+    .technical .section-heading h2 {
+        font-size: 26px;
+    }
+
+    .project-card.featured .project-visual,
+    .project-visual {
+        min-height: 150px;
+        font-size: 20px;
+    }
+
+    .quiz-panel h3,
+    .quiz-result h3 {
+        font-size: 22px;
+    }
+
+    .floating-contact {
+        min-height: 40px;
+        padding: 10px 12px;
+        font-size: 11px;
     }
 }
